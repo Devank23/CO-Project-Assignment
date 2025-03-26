@@ -1,6 +1,6 @@
 # CSE112-22 Assignment: Simple Assembler Simulator
 
-This repository contains the framework for a simple Assembler and Simulator for
+This repository contains the framework for a simple Assembler and Simulator for a specified 16-bit ISA
 Please **download the entire folder** and refrain from modifying the provided structure.  
 Simply **add your files** in the appropriate directories and adjust the run files as necessary.
 
