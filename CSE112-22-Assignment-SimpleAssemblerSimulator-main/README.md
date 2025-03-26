@@ -1,31 +1,48 @@
-# CSE112-22-Assignment-SimpleAssemblerSimulator
+# CSE112-22 Assignment: Simple Assembler Simulator
 
-This repository holds the frame of your project.
-Please download the entire folder and make no modifications to the frame.
-Just add your files in the right directory, and modify the run files according to need.
+This repository contains the framework for a simple Assembler and Simulator for
+Please **download the entire folder** and refrain from modifying the provided structure.  
+Simply **add your files** in the appropriate directories and adjust the run files as necessary.
 
+## Naming Convention
 
-Add your source code file for the assembler in the folder named SimpleAssembler
-Add your source code file for the simulator in the folder named SimpleSimulator
+Ensure your source files follow this naming convention:  
+- `SimpleAssembler`  
+- `SimpleSimulator`  
 
-Naming Convention for the source files: SimpleAssembler, SimpleSimulator.
+Modify the run files within the **SimpleSimulator** and **SimpleAssembler** directories based on the programming language you choose.
 
-Based on the laguage you use, change the run files in SimpleSimulator and SimpleAssembler folders accordingly.
+## Run File Execution Instructions
 
-INSTRUCTIONS FOR RUN FILE: All the run files need to be granted permission/privelidge for execution.
-Eg. for Linux-systems, go to the folder of each run file using bash/terminal and write "chmod +x run" {without quotes}.
+All run files must be granted execution permissions before running them.
 
-To run the results for your assembler, go to Automated Testing folder and open bash/terminal.
-Assuming you have granted required permisions to the run file, type "./run --no-sim" {without quotes}.
+### Granting Execution Permission  
+For Linux-based systems, navigate to the directory containing each run file using the terminal and run:  
+```bash
+chmod +x run
 
-To run the results for your simulator, go to Automated Testing folder and open bash/terminal.
-Assuming you have granted required permisions to the run file, type "./run --no-asm" {without quotes}.
+### Running the Assembler
+To execute the assembler tests, navigate to the Automated Testing folder and open a terminal.
+Assuming the necessary permissions have been granted, run:
 
-To run the results for both,, the assembler and the simulator, go to Automated Testing folder and open bash/terminal.
-Assuming you have granted required permisions to the run file, type "./run" or "./run --verbose" [for verbose output] {without quotes}.
+```bash
+./run --no-sim
 
+### Running the Simulator
+To execute the simulator tests, navigate to the Automated Testing folder and open a terminal.
+Run the following command:
 
-IMPORTANT ANNOUNCEMENT:
-Section-A students, please checkout classroom comments under the Project/Assignment Page on Google Classroom.
-Section-B students, please checkout classroom comments under the Project/Assignment Discussion Sesssion-1 Page on Google Classroom.
-_________________________________________________________________________________________________________________________________________________________________________
+```bash
+./run --no-asm
+
+### Running Both Assembler and Simulator
+To execute tests for both the assembler and simulator, navigate to the Automated Testing folder and open a terminal.
+Run one of the following commands:
+
+```bash
+./run
+
+For verbose output, use:
+
+```bash
+./run --verbose
